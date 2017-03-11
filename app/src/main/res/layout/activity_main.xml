@@ -13,14 +13,36 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+
         <Button
-            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="14sp"
-            android:textColor="@color/color_63"
+            android:layout_gravity="center_horizontal"
             android:onClick="chartview"
-            android:text="柱状图"/>
+            android:text="柱状图"
+            android:textColor="@color/color_63"
+            android:textSize="14sp" />
+
+        <Button
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="piechartview"
+            android:text="饼状图"
+            android:textColor="@color/color_63"
+            android:textSize="14sp" />
+
+        <Button
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="linechartview"
+            android:text="折线图"
+            android:textColor="@color/color_63"
+            android:textSize="14sp" />
 
     </LinearLayout>
 </LinearLayout>

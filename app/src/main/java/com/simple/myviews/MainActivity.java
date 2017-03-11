@@ -30,6 +30,14 @@ public class MainActivity extends Activity {
         startActivity(new Intent(this,ChartViewActivity.class));
     }
 
+    public void piechartview(View view){
+        startActivity(new Intent(this,PieChartActivity.class));
+    }
+
+    public void linechartview(View view){
+        startActivity(new Intent(this,LineChartActivity.class));
+    }
+
 
     private void setOnClick() {
         //2.此处默认返回上一级，但也可重写该监听方法

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.simple.myviews.Views.TitleView
+        android:id="@+id/title_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></com.simple.myviews.Views.TitleView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/color_6c"/>
+
+    <com.simple.myviews.Views.PieChartView
+        android:layout_gravity="center_horizontal"
+        android:background="@color/white"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/pieChartView"
+        />
+</LinearLayout>
