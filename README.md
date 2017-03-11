@@ -8,3 +8,13 @@
 自定义 view：柱状图效果
 <br/>
 ![image](https://github.com/haibofaith/TitleView/blob/master/images/%E6%9F%B1%E7%8A%B6%E5%9B%BE%E8%A6%81%E7%82%B9.png)
+
+
+自定义 view：饼状图效果
+<br/>
+![image](https://github.com/haibofaith/TitleView/blob/master/images/%E9%A5%BC%E7%8A%B6%E5%9B%BE.png)
+
+
+自定义 view：折线图效果
+<br/>
+![image](https://github.com/haibofaith/TitleView/blob/master/images/%E6%8A%98%E7%BA%BF%E5%9B%BE.png)
