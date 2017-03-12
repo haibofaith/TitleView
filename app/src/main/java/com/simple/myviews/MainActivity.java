@@ -42,6 +42,10 @@ public class MainActivity extends Activity {
         startActivity(new Intent(this,LineChartTouchActivity.class));
     }
 
+    public void radarview(View view){
+        startActivity(new Intent(this,RadarViewActivity.class));
+    }
+
 
     private void setOnClick() {
         //2.此处默认返回上一级，但也可重写该监听方法

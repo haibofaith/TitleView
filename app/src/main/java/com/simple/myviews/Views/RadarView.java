@@ -70,9 +70,12 @@ public class RadarView extends View {
             path.moveTo(realRadius, realRadius - realRadius * (5 - i) / 5);
             path.lineTo((float) (realRadius + ((realRadius * Math.sin(72 * Math.PI / 180))) * (5 - i) / 5),
                     (float) (realRadius - (realRadius * Math.cos(72 * Math.PI / 180)) * (5 - i) / 5));
-            path.lineTo((float) (realRadius + (realRadius * Math.sin(36 * Math.PI / 180) * (5 - i) / 5)), (float) (realRadius + (realRadius * Math.cos(36 * Math.PI / 180)) * (5 - i) / 5));
-            path.lineTo((float) (realRadius - (realRadius * Math.sin(36 * Math.PI / 180) * (5 - i) / 5)), (float) (realRadius + (realRadius * Math.cos(36 * Math.PI / 180)) * (5 - i) / 5));
-            path.lineTo((float) (realRadius - (realRadius * Math.sin(72 * Math.PI / 180) * (5 - i) / 5)), (float) (realRadius - (realRadius * Math.cos(72 * Math.PI / 180)) * (5 - i) / 5));
+            path.lineTo((float) (realRadius + (realRadius * Math.sin(36 * Math.PI / 180) * (5 - i) / 5)),
+                    (float) (realRadius + (realRadius * Math.cos(36 * Math.PI / 180)) * (5 - i) / 5));
+            path.lineTo((float) (realRadius - (realRadius * Math.sin(36 * Math.PI / 180) * (5 - i) / 5)),
+                    (float) (realRadius + (realRadius * Math.cos(36 * Math.PI / 180)) * (5 - i) / 5));
+            path.lineTo((float) (realRadius - (realRadius * Math.sin(72 * Math.PI / 180) * (5 - i) / 5)),
+                    (float) (realRadius - (realRadius * Math.cos(72 * Math.PI / 180)) * (5 - i) / 5));
             path.lineTo(realRadius, realRadius - realRadius * (5 - i) / 5);
             canvas.drawPath(path, paint);
         }
